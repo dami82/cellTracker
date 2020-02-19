@@ -1,0 +1,31 @@
+# Rewritten by DF: not using the Roxygen version!!!
+
+export(aggregate_trackedCells)
+export(cell_tracker)
+export(compute_tracks_stats)
+export(estimate_diameter_range)
+export(filter_trackedCells)
+export(get_cells_meta)
+export(get_cells_stats)
+export(get_image_stacks)
+export(get_population_stats)
+export(get_tracks)
+export(load_tif)
+export(optimize_params)
+export(set_cells_meta)
+export(visualize_stack_centroids)
+exportClasses(trackedCells)
+import(foreach)
+importFrom("doParallel", "registerDoParallel")
+importFrom("grDevices", "colorRampPalette")
+importFrom("graphics", "axis", "box", "hist", "image", "par", "points", "text", "title")
+importFrom("utils", "head")
+importFrom("parallel", "clusterExport", "detectCores", "makeCluster", "stopCluster")
+importFrom("reshape2", "melt")
+importFrom("stats", "quantile", "median", "sd", "setNames")
+importFrom("methods", "callNextMethod", "new")
+importFrom("tiff", "readTIFF")
+importFrom("utils", "head")
+
+
+

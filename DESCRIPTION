@@ -1,0 +1,12 @@
+Package: cellTracker
+Type: Package
+Title: Track Cells and Compute Migration Statistics
+Version: 0.2.1
+Date: 2020-02-18
+Author: Damiano Fantini
+Maintainer: Damiano Fantini <damiano.fantini@gmail.com>
+Description: Import TIFF images of fluorescently labeled cells, and track their movements over time. Parallelization is supported for image processing and for fast computation of cell trajectories.
+License: GPL-2
+Depends: methods, R (>= 3.1.0), foreach
+Imports: tiff, graphics, stats, utils, reshape2, parallel, doParallel
+
